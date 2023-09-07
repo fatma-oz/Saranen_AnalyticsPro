@@ -1,0 +1,18 @@
+
+def sum_mean_calculation ():
+
+    import numpy as np
+    import pandas as pd
+
+    data_list = [10, 28, -38, 126, 36, 80, -24]
+    data = pd.DataFrame(data_list)
+    print (data , "\n") 
+    print (np.sum(data[0]),"\n")
+    print (np.mean(data[0]),"\n")
+
+    # Or all statistical results at once
+    # print (data.describe())
+    
+sum_mean_calculation()
+
+
